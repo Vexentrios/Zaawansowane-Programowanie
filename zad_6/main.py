@@ -1,5 +1,3 @@
-import math
-
 def polacz_listy(lista1, lista2):
     nowa_lista = []
 
@@ -13,7 +11,7 @@ def polacz_listy(lista1, lista2):
     print(nowa_lista)
     index = 0
     for wartosc in nowa_lista:
-        nowa_lista[index] = int(math.pow(wartosc, 3))
+        nowa_lista[index] = wartosc ** 3
         index += 1
 
     return nowa_lista
