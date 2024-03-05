@@ -1,18 +1,18 @@
-def mnoznik_bazowy(liczby):
-    wyniki = []
-    for x in liczby:
-        wyniki.append(x*2)
-    return wyniki
+def basic_multiply(numbers):
+    results = []
+    for x in numbers:
+        results.append(x*2)
+    return results
 
 
-def mnoznik_skladany(liczby):
-    wyniki = [x*2 for x in liczby]
-    return wyniki
+def scalar_multiply(numbers):
+    results = [x*2 for x in numbers]
+    return results
 
 
-dane = [7, 3.5, 13, 3.14, 128]
+data = [7, 3.5, 13, 3.14, 128]
 
-przetworzone = mnoznik_bazowy(dane)
-print(f"{przetworzone}\n")
-przetworzone = mnoznik_skladany(dane)
-print(przetworzone)
+changed1 = basic_multiply(data)
+print(f"{changed1}\n")
+changed2 = scalar_multiply(data)
+print(changed2)

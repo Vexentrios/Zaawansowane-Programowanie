@@ -1,11 +1,11 @@
-def lista_imion(imiona):
-    for x in imiona:
-        print(x)
+def names_list(name):
+    for val in name:
+        print(val)
 
 
-lista = ["Anastazja", "Barbara", "Cecylia", "Daria", "Ewa"]
-lista2 = ["Zofia", "Amelia", "Monika", "Patryk", "Martyna"]
+names1 = ["Anastazja", "Barbara", "Cecylia", "Daria", "Ewa"]
+names2 = ["Zofia", "Amelia", "Monika", "Patryk", "Martyna"]
 
-lista_imion(lista)
+names_list(names1)
 print()
-lista_imion(lista2)
+names_list(names2)

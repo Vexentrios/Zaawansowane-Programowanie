@@ -1,12 +1,12 @@
-def parzyste(liczby):
-    for x in liczby:
+def equal_numbers(numbers):
+    for x in numbers:
         if x % 2 == 0:
             print(x)
 
 
-dane_liczby1 = [x for x in range(10)]
-dane_liczby2 = [11, 18, 26, 3, 91, 25, 36, 68, 256, 847]
+numbers_list1 = [x for x in range(10)]
+numbers_list2 = [11, 18, 26, 3, 91, 25, 36, 68, 256, 847]
 
-parzyste(dane_liczby1)
+equal_numbers(numbers_list1)
 print()
-parzyste(dane_liczby2)
+equal_numbers(numbers_list2)

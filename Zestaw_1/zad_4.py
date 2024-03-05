@@ -1,11 +1,11 @@
-def co_druga(liczby):
-    for x in range(1, len(liczby), 2):
-        print(liczby[x])
+def jump_by_two(numbers):
+    for x in range(1, len(numbers), 2):
+        print(numbers[x])
 
 
-dane_liczby1 = [x for x in range(10)]
-dane_liczby2 = [11, 18, 26, 3, 91, 25, 36, 68, 256, 847]
+numbers_data1 = [x for x in range(10)]
+numbers_data2 = [11, 18, 26, 3, 91, 25, 36, 68, 256, 847]
 
-co_druga(dane_liczby1)
+jump_by_two(numbers_data1)
 print()
-co_druga(dane_liczby2)
+jump_by_two(numbers_data2)
