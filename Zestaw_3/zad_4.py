@@ -1,1 +1,1 @@
-print("Special Exercises from previous lessons - NOT DONE")
+print("Special Exercises from previous lessons - DONE")

@@ -11,7 +11,7 @@ class Library:
 
     def __str__(self):
         return (f"Library:\n\tCity: {self.city}\n\tStreet: {self.street}\n\tZIP Code: {self.zip_code}"
-              f"\n\tOpen Hours: {self.open_hours}\n\tPhone: {self.phone}")
+                f"\n\tOpen Hours: {self.open_hours}\n\tPhone: {self.phone}")
 
 
 class Employee:
@@ -41,7 +41,7 @@ class Book:
         self.number_of_pages = pages
 
     def __str__(self):
-        return (f"Book:\n\t{self.library}\n\tPublication Date: {self.publication_date}"
+        return (f"Book:\n{self.library}\n\tPublication Date: {self.publication_date}"
                 f"\n\tAuthor: {self.author_name} {self.author_surname}\n\t"
                 f"Number of Pages: {self.number_of_pages}")
 
@@ -54,7 +54,7 @@ class Order:
         self.order_date = order_date
 
     def __str__(self):
-        result_string = (f"Order created by:\n\t{self.employee}\nFor:\n\t{self.student}\nBooks:")
+        result_string = (f"Order created by:\n{self.employee}\nFor:\n\t{self.student}\nBooks:")
         for book in self.books:
             result_string += f"\n{book}"
         result_string += (f"\nDate:\n\t{self.order_date}")

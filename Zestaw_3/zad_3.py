@@ -35,4 +35,3 @@ flat = Flat("City", 6, 300000,
 
 print(f"{house}\n")
 print(flat)
-
